@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.41f1c1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-D:/Unity/StepHigh
+D:/Unity/网球大作战/Tennis
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62853
-Successfully changed project path to: D:/Unity/StepHigh
-D:/Unity/StepHigh
+51338
+Successfully changed project path to: D:/Unity/网球大作战/Tennis
+D:/Unity/网球大作战/Tennis
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,17 +47,17 @@ D:/Unity/StepHigh
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [38148] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 248348569 [EditorId] 248348569 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18324] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 2384974806 [EditorId] 2384974806 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [38148] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 248348569 [EditorId] 248348569 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18324] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 2384974806 [EditorId] 2384974806 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 84.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.41f1c1 (abf9ed549ceb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/StepHigh/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/网球大作战/Tennis/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,13 +69,13 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013567 seconds.
+Registered in 0.013301 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Android SDK Build-tools component is not found. Make sure all tools are installed in the SDK manager.
@@ -107,32 +107,32 @@ InvalidOperationException: Cannot start process because a file name has not been
   at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <ab639f04fe68482e8095b4649da26631>:0 
   at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <814ad583114542d98f219069942d9500>:0 
 
-Refreshing native plugins compatible for Editor in 83.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.062 seconds
+- Completed reload, in  1.048 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1063ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1049ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (771ms)
-			LoadAssemblies (131ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
+			SetupTypeCache (174ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (493ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (470ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (199ms)
+				InitializePlatformSupportModulesInManaged (182ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
+				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -141,114 +141,54 @@ Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Registering precompiled user dll's ...
-Registered in 0.011556 seconds.
+Registered in 0.010409 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.935 seconds
+- Completed reload, in  1.872 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1936ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1873ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1553ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1530ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
+			SetupTypeCache (407ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (903ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (892ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (702ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (691ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3159 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (46.5 KB). Loaded Objects now: 3642.
-Memory consumption went from 120.1 MB to 120.0 MB.
-Total: 3.669500 ms (FindLiveObjects: 0.362600 ms CreateObjectMapping: 0.173600 ms MarkObjects: 3.042500 ms  DeleteObjects: 0.089900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009759 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.847 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1848ms)
-		BeginReloadAssembly (259ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1446ms)
-			LoadAssemblies (143ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (385ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (857ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (656ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3139 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3646.
-Memory consumption went from 118.3 MB to 118.3 MB.
-Total: 6.535300 ms (FindLiveObjects: 0.480900 ms CreateObjectMapping: 0.346200 ms MarkObjects: 5.671400 ms  DeleteObjects: 0.034900 ms)
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (46.9 KB). Loaded Objects now: 3640.
+Memory consumption went from 120.0 MB to 120.0 MB.
+Total: 6.990800 ms (FindLiveObjects: 0.482200 ms CreateObjectMapping: 0.352200 ms MarkObjects: 6.018600 ms  DeleteObjects: 0.136100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -264,149 +204,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9541.230355 seconds.
-  path: Assets/Tennis Mobile/UI/Arrow bottom.png
-  artifactKey: Guid(8eb2889ff31857146a7a1db9eb146ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 11139.779971 seconds.
+  path: Assets/Tennis Mobile/Scenes
+  artifactKey: Guid(b20af929818ca3542bc248f6b65a3c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/Arrow bottom.png using Guid(8eb2889ff31857146a7a1db9eb146ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814975f93a6a61c803c543344b4d8132') in 0.163132 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Tennis Mobile/Scenes using Guid(b20af929818ca3542bc248f6b65a3c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33caa53fb5e3ed45fc62b22c54c5f28e') in 0.013052 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Images/cebianlan1.png
-  artifactKey: Guid(128165a214427fa40bb5797ba49b4518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tennis Mobile/Scenes/Game scene.unity
+  artifactKey: Guid(b8ce6bd324a432c43a8238329791d0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Images/cebianlan1.png using Guid(128165a214427fa40bb5797ba49b4518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9c341748c9576bdf32524fe8a2dee2') in 0.054105 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Images/cebianlan.png
-  artifactKey: Guid(2e336e6c84ea1bd46ba6a5f1903030bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Images/cebianlan.png using Guid(2e336e6c84ea1bd46ba6a5f1903030bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb5770ccfa9485dc4031204d848756') in 0.052161 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tennis Mobile/UI/Character.png
-  artifactKey: Guid(85db68b42270bb1419398b5faf5d21a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/Character.png using Guid(85db68b42270bb1419398b5faf5d21a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b3e99b7514e1b658955b2928f5595e') in 0.032079 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.050066 seconds.
-  path: Assets/Tennis Mobile/UI/circle.png
-  artifactKey: Guid(9d50d55a6a259fa479dc97839c26fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/circle.png using Guid(9d50d55a6a259fa479dc97839c26fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1196bad4cc4dd8d432d4dd60b7f6e2') in 0.014077 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tennis Mobile/UI/diamond.png
-  artifactKey: Guid(595314c7fd146434eaa24622ecd572d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/diamond.png using Guid(595314c7fd146434eaa24622ecd572d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3100f9c599ccbe1381c34c661cd9d2ab') in 0.016756 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.061083 seconds.
-  path: Assets/Tennis Mobile/UI/diamond 1.png
-  artifactKey: Guid(075470530cd64a34481bf73c14e92aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/diamond 1.png using Guid(075470530cd64a34481bf73c14e92aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1468ae6ace6b3d50b108444cd98083f9') in 0.014748 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.114974 seconds.
-  path: Assets/Tennis Mobile/UI/hand.png
-  artifactKey: Guid(c0ed919024df9dc469ed75db6059c5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/hand.png using Guid(c0ed919024df9dc469ed75db6059c5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39c45f5dc87cc2d13c775ff3ffe4264') in 0.028745 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tennis Mobile/UI/logo simple.png
-  artifactKey: Guid(0fe2d5a9ad63d334db5586b02ca4c060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/logo simple.png using Guid(0fe2d5a9ad63d334db5586b02ca4c060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3930ba123391173a385871624463e2b6') in 0.067346 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.108153 seconds.
-  path: Assets/Tennis Mobile/UI/Power bar.png
-  artifactKey: Guid(b6d3f3b94ed1b0e41872294a042b0a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/Power bar.png using Guid(b6d3f3b94ed1b0e41872294a042b0a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933d0bc7e26ffa2d01dd74064c73a77e') in 0.047711 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tennis Mobile/UI/shoot icon.png
-  artifactKey: Guid(b4ca4163dd36bec4587114a3fd3e5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/shoot icon.png using Guid(b4ca4163dd36bec4587114a3fd3e5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffc15f08b55f548dfc04deeccf13a75') in 0.017798 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tennis Mobile/UI/Settings.png
-  artifactKey: Guid(959b6874b0ac6bc46860fb8f0b4d5093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/Settings.png using Guid(959b6874b0ac6bc46860fb8f0b4d5093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc278e3b05b1240e4c03d644de4bb32') in 0.011046 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tennis Mobile/UI/resume button.png
-  artifactKey: Guid(01c0a22b0297a1040b2265aea2d8e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/resume button.png using Guid(01c0a22b0297a1040b2265aea2d8e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fd746ada3a87b73fa15d062eceb75b') in 0.009718 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.120370 seconds.
-  path: Assets/Tennis Mobile/UI/triangle.png
-  artifactKey: Guid(7f4ad68946725924ba9fcef431ff6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/triangle.png using Guid(7f4ad68946725924ba9fcef431ff6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e286b1e86c7b1e22467aa281fa3f20') in 0.012913 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.030451 seconds.
-  path: Assets/Tennis Mobile/UI/Vibrate.png
-  artifactKey: Guid(6f73e2795a8343044bf04094623d2885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/Vibrate.png using Guid(6f73e2795a8343044bf04094623d2885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d45706aec9a58ae783b63f58553eb7') in 0.011218 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tennis Mobile/UI/Video.png
-  artifactKey: Guid(76af285f0e22e464e8dcda133773451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/Video.png using Guid(76af285f0e22e464e8dcda133773451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66455d2af2d27e964dc1f97b01805c13') in 0.089761 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.117171 seconds.
-  path: Assets/Tennis Mobile/UI/VS.png
-  artifactKey: Guid(7787071f6f285c04a80eb7f179fc05e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Tennis Mobile/UI/VS.png using Guid(7787071f6f285c04a80eb7f179fc05e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b6f93a02caacdcae566391d3cc7af4') in 0.028616 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Images/市场营销_ 媒体_ 运动员_ 社交的_ 视频_ 网站_ Yo_爱给网_aigei_com.png
-  artifactKey: Guid(d03799fc636476242ba7cd60830232c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Images/市场营销_ 媒体_ 运动员_ 社交的_ 视频_ 网站_ Yo_爱给网_aigei_com.png using Guid(d03799fc636476242ba7cd60830232c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651bff2839cea1e4f61216f2dfc45933') in 0.029093 seconds 
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Tennis Mobile/Scenes/Game scene.unity using Guid(b8ce6bd324a432c43a8238329791d0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631af919d37dd45876230713f46f9b85') in 0.002221 seconds 
+Number of asset objects unloaded after import = 0
