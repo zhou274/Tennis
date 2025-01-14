@@ -138,9 +138,8 @@ public class GameManager : MonoBehaviour {
 		info.scoreText = playerPoints + " - " + opponentPoints;
 		
 		DontDestroyOnLoad(matchInfo);
-        ShowInterstitialAd("1lcaf5895d5l1293dc",
+        ShowInterstitialAd("2dtehm4es3s1ed1k2d",
             () => {
-                Debug.LogError("--插屏广告完成--");
 
             },
             (it, str) => {
@@ -325,7 +324,7 @@ public class GameManager : MonoBehaviour {
 	}
 	public void ContinueGame()
 	{
-        ShowVideoAd("192if3b93qo6991ed0",
+        ShowVideoAd("27sllk5ckb34a84e64",
             (bol) => {
                 if (bol)
                 {

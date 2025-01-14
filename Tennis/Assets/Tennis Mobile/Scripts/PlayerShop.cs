@@ -163,7 +163,7 @@ public class PlayerShop : MonoBehaviour {
 	}
 	public void AddCoins()
 	{
-        ShowVideoAd("192if3b93qo6991ed0",
+        ShowVideoAd("27sllk5ckb34a84e64",
             (bol) => {
                 if (bol)
                 {
